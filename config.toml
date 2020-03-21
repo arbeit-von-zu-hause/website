@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://arbeit-von-zu-hause.github.io/website/"
 languageCode = "de-de"
 title = "Arbeit von Zuhause"
 theme = "chunky-poster"
