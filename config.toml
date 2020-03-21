@@ -1,6 +1,6 @@
 baseURL = "https://arbeit-von-zu.haus/"
 languageCode = "de-de"
-title = "Arbeit von Zuhause"
+title = "Arbeit von Zuhaus"
 theme = "chunky-poster"
 
 [params]
