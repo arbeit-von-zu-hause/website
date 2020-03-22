@@ -17,13 +17,15 @@ jobs:
         with:
           submodules: true
 
-      - name: Install Hugo
-        uses: peaceiris/actions-hugo@v2
+      - uses: actions/setup-node@v1
         with:
-          hugo-version: '0.67.1'
+          node-version: '12.x'
 
-      - name: Build Hugo page
-        run: hugo --minify --buildDrafts
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build Yarn page
+        run: yarn run generate
 
       - name: Deploy to gh pages
         # only deploy if we are on the source branch
@@ -31,6 +33,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./dist
           publish_branch: master
           cname: arbeit-von-zu.haus
