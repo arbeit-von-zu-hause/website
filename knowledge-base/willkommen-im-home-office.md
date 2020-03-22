@@ -1,7 +1,7 @@
 ---
 title: "Endlich HomeOffice – und nun?"
 subtitle: Eine kleine Einführung in deinen neuen Alltag
-youtube: https://www.youtube-nocookie.com/embed/agqFNAMCPIA
+youtube: https://www.youtube-nocookie.com/embed/kaQzJRGKnBg
 date: 2020-03-22
 ---
 
