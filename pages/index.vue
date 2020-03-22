@@ -1,5 +1,5 @@
 <template>
-  <main class="homepage container">
+  <main class="homepage container py-4">
     <section class="hero row py-4">
       <img
         src="/images/undraw_remotely.svg"
