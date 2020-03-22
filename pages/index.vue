@@ -26,16 +26,25 @@
       <div class="embed-responsive embed-responsive-16by9 my-4">
         <iframe
           class="embed-responsive-item"
-          src="https://www.youtube-nocookie.com/embed/44CLt-_kGsM"
+          src="https://www.youtube-nocookie.com/embed/bq6I62oNwLM"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         />
       </div>
     </section>
+    <Article article="willkommen-im-home-office" />
+    <nuxt-link to="/app/" class="btn btn-outline-success btn-lg">
+      Auf jeden Fall!
+    </nuxt-link>
   </main>
 </template>
 
-<script></script>
+<script>
+import Article from '../components/Article'
+export default {
+  components: { Article }
+}
+</script>
 
 <style scoped lang="scss">
 @import '~bootstrap/scss/functions';

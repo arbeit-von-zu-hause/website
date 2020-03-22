@@ -1,0 +1,35 @@
+Q1:
+  question: Wie viele Stunden Erfahrung hast du schon im Home Office?
+  answers:
+    - value: Q1-A1
+      text: weniger als 10 Stunden
+      kb: home-office-neuling
+      nextQuestion: Q2
+    - value: Q1-A2
+      text: 10 bis 50 Stunden
+      kb: home-office-fortgeschritten
+      nextQuestion: Q2
+    - value: Q1-A3
+      text: mehr als 50 Stunden
+      kb: home-office-experte
+      nextQuestion: Q3
+Q2:
+  question: Wie viele Leute sind außer dir in deiner Wohnung?
+  answers:
+    - value: Q2-A1
+      text: 'Niemand, ich bin allein'
+      kb: allein-zu-haus
+      nextQuestion: Q3
+    - value: Q2-A2
+      text: Meine Familie / WG-Mitbewohner
+      kb: viel-los-zu-haus
+      nextQuestion: Q3
+Q3:
+  question: Welches Thema interessiert dich außerdem?
+  answers:
+    - value: Q3-A1
+      text: Tipps zur Organisation
+      kb: tipps-zur-organisation
+    - value: Q3-A2
+      text: Zeitmanagement
+      kb: zeitmanagement

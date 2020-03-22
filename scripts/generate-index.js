@@ -41,6 +41,15 @@ const renderAll = () => {
     path.join(__dirname, '../assets/content.json'),
     JSON.stringify(content)
   )
+
+  const steps = yaml.safeLoad(
+    fs.readFileSync(path.join(baseDir, '_knowledge-base.yml'), 'utf8')
+  )
+
+  fs.writeFileSync(
+    path.join(__dirname, '../assets/steps.json'),
+    JSON.stringify(steps)
+  )
   console.log('Rendered.')
 }
 
