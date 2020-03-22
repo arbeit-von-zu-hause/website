@@ -1,6 +1,7 @@
 ---
 title: "Tipps zur Organisation"
 date: 2020-03-22
+youtube: https://www.youtube-nocookie.com/embed/44CLt-_kGsM
 ---
 
 Ein paar Tipps, wie ihr euch im Homeoffice organisieren könnt.
