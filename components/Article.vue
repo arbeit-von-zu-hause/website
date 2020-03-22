@@ -14,25 +14,27 @@
   </section>
 </template>
 <script>
+import content from '~/assets/content.json'
+
 export default {
   props: {
-    title: {
+    article: {
       type: String,
       required: true
+    }
+  },
+  computed: {
+    title() {
+      return content[this.article].title
     },
-    content: {
-      type: String,
-      required: true
+    content() {
+      return content[this.article].content
     },
-    subtitle: {
-      type: String,
-      required: false,
-      default: null
+    subtitle() {
+      return content[this.article].subtitle
     },
-    youtube: {
-      type: String,
-      required: false,
-      default: null
+    youtube() {
+      return content[this.article].youtube
     }
   }
 }

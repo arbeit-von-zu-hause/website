@@ -1,3 +1,5 @@
+import articles from './assets/content'
+
 export default {
   mode: 'universal',
   /*
@@ -56,5 +58,9 @@ export default {
      */
     extend(config, ctx) {}
   },
-  serverMiddleware: [{ path: '/api', handler: '~/api/knowledge-base.js' }]
+  generate: {
+    routes() {
+      return Object.keys(articles).map((x) => `/knowledge-base/${x}`)
+    }
+  }
 }

@@ -4,7 +4,7 @@
   </main>
 </template>
 <script>
-import Step from '~/components/step'
+import Step from '~/components/Step.vue'
 
 export default {
   components: {

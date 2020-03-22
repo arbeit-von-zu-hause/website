@@ -15,32 +15,24 @@
     <template v-if="selected">
       <hr />
       <b-button variant="outline-success">Zur nächsten Frage</b-button>
-      <template v-if="kb">
+      <template v-if="selected.kb">
         <p>
           In unserer Knowledge Base haben wir einen Artikel für dich gefunden,
         </p>
-        <Article
-          :title="kb.title"
-          :youtube="kb.youtube"
-          :content="kb.content"
-          :subtitle="kb.subtitle"
-        />
+        <Article :article="selected.kb" />
       </template>
     </template>
-
   </section>
 </template>
 <script>
-import axios from 'axios'
-import Article from './Article'
+import Article from './Article.vue'
 
 export default {
   components: { Article },
   props: {
     step: {
       type: Object,
-      default: () => {
-      }
+      default: () => {}
     },
     stepKey: {
       type: String,
@@ -49,29 +41,7 @@ export default {
   },
   data() {
     return {
-      kb: null,
       selected: null
-    }
-  },
-  watch: {
-    // whenever question changes, this function will run
-    selected(newQuestion) {
-      if (newQuestion.kb) {
-        this.loadKB(newQuestion.kb)
-      } else {
-        this.kb = false
-      }
-    }
-  },
-  methods: {
-    async loadKB(kb) {
-      this.loading = true
-      const { data } = await axios.get(
-        'http://localhost:3000/api/knowledge-base/' + kb
-      )
-      this.kb = data
-
-      this.loading = false
     }
   }
 }
