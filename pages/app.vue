@@ -31,7 +31,8 @@ export default {
             {
               value: 'Q1-A2',
               text: '10 bis 50 Stunden',
-              kb: 'home-office-fortgeschritten'
+              kb: 'home-office-fortgeschritten',
+              nextQuestion: 'Q2'
             },
             {
               value: 'Q1-A3',
@@ -41,11 +42,17 @@ export default {
           ]
         },
         Q2: {
-          question: 'My Example question 2',
+          question: 'Wie viele Leute sind außer dir in deiner Wohnung?',
           answers: [
             {
               value: 'Q2-A1',
-              text: 'Example Antwort'
+              text: 'Niemand, ich bin allein',
+              kb: 'allein-zu-haus'
+            },
+            {
+              value: 'Q2-A2',
+              text: 'Meine Familie / WG-Mitbewohner',
+              kb: 'viel-los-zu-haus'
             }
           ]
         }

@@ -1,10 +1,14 @@
 ---
-title: "Allein zu Haus"
-subtitle: Soziale Einsamkeit verhindern
+title: "Allein zu Haus?"
 youtube: https://www.youtube-nocookie.com/embed/-FlxM_0S2lA
 date: 2020-03-21T14:47:17+01:00
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum urna at ornare venenatis. Phasellus vitae interdum orci. Etiam non ipsum nec erat scelerisque dapibus at sit amet ipsum. Aenean libero ex, lacinia ac erat id, feugiat ultrices lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut vel magna augue. Nullam lobortis rhoncus felis, nec egestas odio semper eu. Nullam et suscipit tellus. 
+Keiner da? So lässt es sich bestimmt gut arbeiten. Auch in einer kleinen Wohnung kommt man sich so nicht in die Quere, wenn mal ein Telefonat mit Kollegen oder gar Externen notwendig ist.
+ 
+Diese Ruhe hat aber leider auch ihre Schattenseiten: Der Kontakt zu den Kollegen fällt erstmal weg. Was manch einem eine Wohltat ist, ist für andere eher ein Problem.
 
-Curabitur dictum blandit diam vel interdum. Aenean elementum fringilla elementum. Proin a aliquam ligula. Etiam porta nunc mi, vitae imperdiet lacus fringilla eu. Pellentesque vitae sapien et sem efficitur maximus et vitae elit. Maecenas eu malesuada augue, nec tincidunt mauris. Etiam vel eros purus. Nullam porttitor, metus id ultrices interdum, enim magna pulvinar sapien, vel facilisis ipsum purus eget massa. 
+Unsere Tipps, damit dir auch im Homeoffice der Kontakt zu den Kollegen nicht verloren geht:
+1. Macht regelmäßig Phone- oder Videocalls im Team.
+1. Tauscht euch über Erfolge oder Schwierigkeiten aus
+1. Sucht euch Buddies
