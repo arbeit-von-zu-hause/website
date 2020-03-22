@@ -1,6 +1,6 @@
 ---
 title: "Neuling im Homeoffice"
-date: 2020-03-21T14:47:17+01:00
+date: 2020-03-22
 ---
 
 So, nun ist es soweit: Homeoffice. 
@@ -26,7 +26,12 @@ Damit dich die vielen Seiten im Netz nicht total erschlagen, hier die wichtigste
 
 Du siehst: Wenn du dir die nötige Struktur schaffst, hast du den wichtigsten Schritt gemeistert.
 
-Falls es dir mit all der ruhigen Arbeitsumgebung dann doch zu still wird und dir die gewohnte Geräuschkulisse deiner Kollegen fehlt: Es gibt sogar Videos auf Youtube, die die normalen Bürogeräusche simulieren:
+Falls es dir mit all der ruhigen Arbeitsumgebung dann doch zu still wird und dir die gewohnte Geräuschkulisse deiner Kollegen fehlt:
+Es gibt sogar Videos auf Youtube, die die [normalen Bürogeräusche simulieren](https://www.youtube.com/watch?v=s6IcQUZI-o0).
 
-\TODO: Link
+Weitere Tipps findet du hier:
 
+- https://www.stellenanzeigen.de/jobtipps/effektiv-im-homeoffice-arbeiten-17-tipps/#Weniger-Ueberstunden-im-Homeoffice
+- https://www.swr3.de/aktuell/Home-Office-Mit-diesen-Tipps-klappt-s-mit-der-Arbeit-von-zu-Hause/-/id=4382120/did=5577346/16222qi/index.html
+- https://sevdesk.de/blog/10-tipps-home-office-einrichten/
+- https://www.webbaecker.de/ergonomie-gesund-sitzen-im-home-office/

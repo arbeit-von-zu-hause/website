@@ -1,6 +1,6 @@
 ---
 title: "Experte im Homeoffice"
-date: 2020-03-21T14:47:17+01:00
+date: 2020-03-22
 ---
 
 Du scheinst bereits ein alter Hase bei der Arbeit von Zuhause zu sein. Vieles geht schon durch die schiere Gewohnheit leicht von der Hand.
@@ -15,3 +15,7 @@ Hier noch ein paar Tipps, damit deine Zeit im Homeoffice auch weiterhin gut läu
 
 1. Entwickle Morgenroutinen (weiter)
 1. Damit du nicht in die Aufschieberitis fällst: Eat the frog!
+
+Weitere Tipps findest du hier:
+
+- https://www.selbst-management.biz/wie-du-produktiv-in-den-tag-startest/

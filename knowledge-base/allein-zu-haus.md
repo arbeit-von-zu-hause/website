@@ -1,7 +1,6 @@
 ---
 title: "Allein zu Haus?"
-youtube: https://www.youtube-nocookie.com/embed/-FlxM_0S2lA
-date: 2020-03-21T14:47:17+01:00
+date: 2020-03-22
 ---
 
 Keiner da? So lässt es sich bestimmt gut arbeiten. Auch in einer kleinen Wohnung kommt man sich so nicht in die Quere, wenn mal ein Telefonat mit Kollegen oder gar Externen notwendig ist.
@@ -12,3 +11,6 @@ Unsere Tipps, damit dir auch im Homeoffice der Kontakt zu den Kollegen nicht ver
 1. Macht regelmäßig Phone- oder Videocalls im Team.
 1. Tauscht euch über Erfolge oder Schwierigkeiten aus
 1. Sucht euch Buddies
+
+Andere Hinweise findest du hier:
+- https://filizscarcella.com/home-office-zusammenarbeit-team/

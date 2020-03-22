@@ -2,7 +2,7 @@
 title: "Endlich HomeOffice – und nun?"
 subtitle: Eine kleine Einführung in deinen neuen Alltag
 youtube: https://www.youtube-nocookie.com/embed/agqFNAMCPIA
-date: 2020-03-21T14:47:17+01:00
+date: 2020-03-22
 ---
 
 Endlich HomeOffice - das denken sicher einige. Ich kann bequem von zu Hause arbeiten, mir die Arbeit so einteilen, wie ich will. 

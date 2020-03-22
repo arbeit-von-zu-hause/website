@@ -1,6 +1,6 @@
 ---
 title: "Viel los zu Haus?"
-date: 2020-03-21T14:47:17+01:00
+date: 2020-03-22
 ---
 
 Homeoffice in der vollen Wohnung? Nicht nur Erwachsene, sondern auch vielleicht noch ein paar (kleine) Kinder mit in der Wohnung?
@@ -15,3 +15,7 @@ Trotzdem gibt es ein paar Tipps, wie man sich hier über Wasser halten kann:
 1. Mache feste Pausen
 1. Zeige deinem Kind, dass du in den anderen Zeiten voll da bist
 1. Ruhig bleiben...
+
+Weitere Infos findest du hier:
+- https://arbeits-abc.de/arbeiten-im-homeoffice-mit-kind/
+- https://www.eltern.de/familienleben/corona-tipps-home-office-mit-kindern

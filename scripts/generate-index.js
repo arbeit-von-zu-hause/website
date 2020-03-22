@@ -7,12 +7,11 @@ const baseDir = path.join(__dirname, '..', 'knowledge-base')
 
 let frontMatter
 
-const md = require('markdown-it')().use(
-  require('markdown-it-front-matter'),
-  function(fmRaw) {
-    frontMatter = yaml.safeLoad(fmRaw)
-  }
-)
+const md = require('markdown-it')({
+  linkify: true
+}).use(require('markdown-it-front-matter'), function(fmRaw) {
+  frontMatter = yaml.safeLoad(fmRaw)
+})
 
 const renderFile = (file) => {
   const raw = fs.readFileSync(file, 'utf8')

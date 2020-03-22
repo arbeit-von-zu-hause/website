@@ -1,6 +1,6 @@
 ---
 title: "Fortgeschrittene im Homeoffice"
-date: 2020-03-21T14:47:17+01:00
+date: 2020-03-22
 ---
 
 Die ersten Schritte im Homeoffice liegen bereits hinter dir. Die ganz großen Einstiegshürden hast du hoffentlich auch schon gemeistert: Du hast dir einen Arbeitsplatz gesucht, an dem du bequem auch längere Zeit sitzen kannst, der Rechner hängt am Internet und die ersten Stunden in der vertrauten, aber eben für Arbeit ungewohnten Umgebung, sind durch.
@@ -20,7 +20,10 @@ Deshalb haben wir hier die wichtigsten Tipps für die notwendige Struktur mal zu
 1. Setze dir Tages-, Wochen- oder sogar langfristige Ziele
 1. Halte Kontakt zu deinen Kollegen
 
-Dir fehlen die ganzen Hintergrundgeräusche deiner Kollegen jetzt schon? Schau mal auf Youtube:
+Dir fehlen die ganzen Hintergrundgeräusche deiner Kollegen jetzt schon? [Schau mal auf Youtube](https://www.youtube.com/watch?v=s6IcQUZI-o0):
 
-\TODO: Link
+Weitere Tipps findest du hier:
+
+- https://www.stellenanzeigen.de/jobtipps/effektiv-im-homeoffice-arbeiten-17-tipps/#Weniger-Ueberstunden-im-Homeoffice 
+- https://www.swr3.de/aktuell/Home-Office-Mit-diesen-Tipps-klappt-s-mit-der-Arbeit-von-zu-Hause/-/id=4382120/did=5577346/16222qi/index.html
 
