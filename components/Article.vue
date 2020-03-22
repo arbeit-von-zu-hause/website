@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="h2">{{ title }}</div>
+    <div class="h2 w-100">{{ title }}</div>
     <p v-if="subtitle" class="lead">{{ subtitle }}</p>
     <div v-if="youtube" class="embed-responsive embed-responsive-16by9 my-4">
       <iframe

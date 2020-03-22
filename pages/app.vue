@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="homepage container">
     <step
       v-if="stepKey"
       :step-key="stepKey"

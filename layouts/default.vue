@@ -21,9 +21,7 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
-    <main class="homepage container py-6">
-      <nuxt />
-    </main>
+    <nuxt />
   </div>
 </template>
 

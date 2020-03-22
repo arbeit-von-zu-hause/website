@@ -31,8 +31,31 @@
           allowfullscreen
         />
       </div>
+      <p>
+        Hier findest uns im Netz:
+      </p>
+      <ul>
+        <li>
+          <b-link
+            href="https://github.com/arbeit-von-zuhaus/arbeit-von-zuhaus.github.io"
+            >GitHub
+          </b-link>
+          – hier kannst du Beiträge zum Projekt leisten.
+        </li>
+        <li>
+          <b-link
+            href="https://devpost.com/software/26_homeoffice_softskill_challenge"
+            >DevPost
+          </b-link>
+          – hier findest unsere Hackathon-Planungsseite.
+        </li>
+      </ul>
+      <p>
+        Zur Zeit ist die Anwendung ein Prototyp und wir laden gern ein uns via
+        DevPost oder GitHub zu kontaktieren und das Projekt voranzutreiben.
+      </p>
     </section>
-    <Article article="willkommen-im-home-office" />
+    <Article class="row" article="willkommen-im-home-office" />
     <nuxt-link to="/app/" class="btn btn-outline-success btn-lg">
       Auf jeden Fall!
     </nuxt-link>
@@ -41,6 +64,7 @@
 
 <script>
 import Article from '../components/Article'
+
 export default {
   components: { Article }
 }
