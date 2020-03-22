@@ -1,5 +1,7 @@
 <template>
-  <Article :article="article" />
+  <main class="homepage container">
+    <Article :article="article" />
+  </main>
 </template>
 <script>
 import Article from '~/components/Article.vue'
