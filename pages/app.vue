@@ -1,6 +1,11 @@
 <template>
   <main>
-    <step v-if="stepKey" :step-key="stepKey" :step="step" />
+    <step
+      v-if="stepKey"
+      :step-key="stepKey"
+      :step="step"
+      @next-question="goToQuestion"
+    />
   </main>
 </template>
 <script>
@@ -12,7 +17,7 @@ export default {
   },
   data() {
     return {
-      history: [],
+      history: ['Q1'],
       steps: {
         Q1: {
           question: 'Wie viele Stunden Erfahrung hast du schon im Home Office?',
@@ -20,10 +25,28 @@ export default {
             {
               value: 'Q1-A1',
               text: 'weniger als 10 Stunden',
-              kb: 'willkommen-im-home-office'
+              kb: 'home-office-neuling',
+              nextQuestion: 'Q2'
             },
-            { value: 'Q1-A2', text: '10 bis 50 Stunden' },
-            { value: 'Q1-A3', text: 'mehr als 50 Stunden' }
+            {
+              value: 'Q1-A2',
+              text: '10 bis 50 Stunden',
+              kb: 'home-office-fortgeschritten'
+            },
+            {
+              value: 'Q1-A3',
+              text: 'mehr als 50 Stunden',
+              kb: 'home-office-experte'
+            }
+          ]
+        },
+        Q2: {
+          question: 'My Example question 2',
+          answers: [
+            {
+              value: 'Q2-A1',
+              text: 'Example Antwort'
+            }
           ]
         }
       }
@@ -31,10 +54,15 @@ export default {
   },
   computed: {
     stepKey() {
-      return this.history[this.history.length - 1] || 'Q1'
+      return this.history[this.history.length - 1]
     },
     step() {
       return this.steps[this.stepKey]
+    }
+  },
+  methods: {
+    goToQuestion(questionId) {
+      this.history.push(questionId)
     }
   }
 }

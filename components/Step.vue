@@ -14,10 +14,16 @@
     </b-form-group>
     <template v-if="selected">
       <hr />
-      <b-button variant="outline-success">Zur nächsten Frage</b-button>
+      <b-button
+        v-if="selected.nextQuestion"
+        variant="outline-success my-2"
+        @click="$emit('next-question', selected.nextQuestion)"
+      >
+        Zur nächsten Frage
+      </b-button>
       <template v-if="selected.kb">
         <p>
-          In unserer Knowledge Base haben wir einen Artikel für dich gefunden,
+          In unserer Knowledge Base haben wir einen Artikel für dich gefunden:
         </p>
         <Article :article="selected.kb" />
       </template>
@@ -42,6 +48,11 @@ export default {
   data() {
     return {
       selected: null
+    }
+  },
+  watch: {
+    step() {
+      this.selected = null
     }
   }
 }

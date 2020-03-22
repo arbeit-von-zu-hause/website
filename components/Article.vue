@@ -25,16 +25,16 @@ export default {
   },
   computed: {
     title() {
-      return content[this.article].title
+      return content[this.article]?.title
     },
     content() {
-      return content[this.article].content
+      return content[this.article]?.content
     },
     subtitle() {
-      return content[this.article].subtitle
+      return content[this.article]?.subtitle
     },
     youtube() {
-      return content[this.article].youtube
+      return content[this.article]?.youtube
     }
   }
 }
