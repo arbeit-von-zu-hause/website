@@ -1,6 +1,6 @@
 <template>
-  <main class="homepage container py-6">
-    <section class="hero row">
+  <main class="homepage container">
+    <section class="hero row py-4">
       <img
         src="/images/undraw_remotely.svg"
         class="homepage-image col img-fluid"
@@ -13,15 +13,24 @@
           erstellt, welche dir helfen aus dir einen Home Office Helden zu
           machen.
         </p>
+        <p class="lead font-weight-bold">
+          Bist du bereit deine eigene Home Office Geschichte zu schreiben?
+        </p>
+        <nuxt-link to="/app/" class="btn btn-outline-success btn-lg">
+          Hey-ho let's go!
+        </nuxt-link>
       </div>
     </section>
-    <section class="m-4">
-      <p class="lead font-weight-bold">
-        Bist du bereit deine eigene Home Office Geschichte zu schreiben?
-      </p>
-      <nuxt-link to="/app/" class="btn btn-outline-success btn-lg">
-        Hey-ho let's go!
-      </nuxt-link>
+    <section class="row py-4">
+      <h2>Erfahre mehr über das Projekt</h2>
+      <div class="embed-responsive embed-responsive-16by9 my-4">
+        <iframe
+          class="embed-responsive-item"
+          src="https://www.youtube-nocookie.com/embed/44CLt-_kGsM"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        />
+      </div>
     </section>
   </main>
 </template>
