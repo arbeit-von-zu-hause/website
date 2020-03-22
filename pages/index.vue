@@ -5,7 +5,7 @@
         src="/images/undraw_remotely.svg"
         class="homepage-image col img-fluid"
       />
-      <div class="col position-relative py-lg-7 pb-5">
+      <div class="col">
         <h1 class="display-4">Arbeit von Zuhaus</h1>
         <p class="font-weight-normal">
           Arbeit von Zuhaus ist eine App, die dir helfen kann in den Home Office
